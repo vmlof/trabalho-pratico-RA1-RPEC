@@ -9,18 +9,18 @@ public class Pilha {
         return topo == null;
     }
 
-    public void insere(int elemento) {
+    public void insere(Elemento elemento) {
         No novoNo = new No(elemento);
         novoNo.setProximo(topo);
         topo = novoNo;
     }
 
-    public int remove() {
+    public Elemento remove() {
         if (vazia()) {
             System.out.println("pilha vazia");
-            return -1;
+            return null;
         }
-        int noTopo = topo.getDado();
+        Elemento noTopo = topo.getElemento();
         topo = topo.getProximo();
         return noTopo;
     }
@@ -32,8 +32,23 @@ public class Pilha {
         }
         No atual = topo;
         while (atual != null) {
-            System.out.println(atual.getDado());
+            System.out.println(atual.getElemento());
             atual = atual.getProximo();
         }
     }
+
+    public void preencherPilha() {
+        insere(new Elemento("REQ001", "Instalação de software", "2024-08-20 10:30"));
+        insere(new Elemento("REQ002", "Manutenção preventiva", "2024-08-20 11:00"));
+        insere(new Elemento("REQ003", "Atualização de sistema", "2024-08-20 11:30"));
+        insere(new Elemento("REQ004", "Suporte técnico", "2024-08-20 12:00"));
+        insere(new Elemento("REQ005", "Troca de equipamento", "2024-08-20 12:30"));
+        insere(new Elemento("REQ006", "Consulta de garantia", "2024-08-20 13:00"));
+        insere(new Elemento("REQ007", "Reparo de impressora", "2024-08-20 13:30"));
+        insere(new Elemento("REQ008", "Configuração de rede", "2024-08-20 14:00"));
+        insere(new Elemento("REQ009", "Restauração de dados", "2024-08-20 14:30"));
+        insere(new Elemento("REQ010", "Consulta técnica", "2024-08-20 15:00"));
+    }
+
+
 }

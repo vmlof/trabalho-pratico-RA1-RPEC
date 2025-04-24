@@ -1,18 +1,18 @@
 public class No {
-    private int dado;
+    private Elemento elemento;
     private No proximo;
 
-    public No(int dado) {
-        this.dado = dado;
+    public No(Elemento elemento) {
+        this.elemento = elemento;
         this.proximo = null;
     }
 
-    public int getDado() {
-        return dado;
+    public Elemento getElemento() {
+        return elemento;
     }
 
-    public void setDado(int dado) {
-        this.dado = dado;
+    public void setElemento(Elemento elemento) {
+        this.elemento = elemento;
     }
 
     public No getProximo() {
