@@ -107,7 +107,7 @@ A classe principal `Main.java` realiza as seguintes ações:
 3. Compile todos os arquivos:
    * No __CMD__ (prompt de comando):
     ```bash
-    cd javac *.java
+    javac *.java
     ```
     * No __PowerShell__ :
     ```bash
