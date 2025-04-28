@@ -19,7 +19,6 @@ A **pilha** representa um histórico das solicitações feitas. Segue o modelo L
     - `remove()`: remove e retorna a solicitação do topo.
     - `vazia()`: verifica se a pilha está vazia.
     - `imprime()`: imprime o conteúdo da pilha.
-    - `preencherPilha()`: insere 10 solicitações simuladas.
 
 ### 📁 Classe `Historico.java`
 - Representa uma solicitação feita pelo cliente.
@@ -41,7 +40,7 @@ A **fila** simula a ordem de atendimento dos clientes, seguindo o modelo FIFO (F
     - `atenderCliente()`: remove o primeiro cliente da fila.
     - `vazia()`: verifica se a fila está vazia.
     - `imprimir()`: mostra a fila completa.
-    - `preencherFila()`: adiciona 10 atendimentos simulados.
+    
 
 ### 📁 Classe `Atendimento.java`
 - Representa um atendimento agendado para um cliente.
@@ -68,9 +67,11 @@ A **fila** simula a ordem de atendimento dos clientes, seguindo o modelo FIFO (F
 A classe principal `Main.java` realiza as seguintes ações:
 
 1. Preenche e imprime o histórico de solicitações (pilha).
+- `preencherPilha()`: insere 10 solicitações simuladas.
 2. Remove uma solicitação e mostra a pilha atualizada.
 3. Adiciona uma nova solicitação.
 4. Preenche a fila de atendimentos com clientes.
+- `preencherFila()`: adiciona 10 atendimentos simulados.
 5. Atende sete clientes e mostra a fila atualizada.
 6. Adiciona mais dois clientes e mostra a nova fila.
 
