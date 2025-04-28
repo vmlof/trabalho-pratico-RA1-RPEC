@@ -23,7 +23,6 @@ public class Fila {
             fim.setProximo(novoNo);
         }
         fim = novoNo;
-        System.out.println("Cliente adicionado com sucesso, dados: " + elemento);
     }
 
     private Elemento remover() {
