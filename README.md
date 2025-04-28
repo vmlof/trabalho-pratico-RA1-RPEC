@@ -67,11 +67,11 @@ A **fila** simula a ordem de atendimento dos clientes, seguindo o modelo FIFO (F
 A classe principal `Main.java` realiza as seguintes ações:
 
 1. Preenche e imprime o histórico de solicitações (pilha).
-- `preencherPilha()`: insere 10 solicitações simuladas.
+- `preencherPilha(Pilha p)`: insere 10 solicitações simuladas.
 2. Remove uma solicitação e mostra a pilha atualizada.
 3. Adiciona uma nova solicitação.
 4. Preenche a fila de atendimentos com clientes.
-- `preencherFila()`: adiciona 10 atendimentos simulados.
+- `preencherFila(Fila f)`: adiciona 10 atendimentos simulados.
 5. Atende sete clientes e mostra a fila atualizada.
 6. Adiciona mais dois clientes e mostra a nova fila.
 
