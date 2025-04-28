@@ -1,4 +1,4 @@
-public class Fila extends Elemento {
+public class Fila {
     private No inicio;
     private No fim;
 
