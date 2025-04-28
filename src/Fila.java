@@ -60,17 +60,4 @@ public class Fila extends Elemento {
         System.out.println();
     }
 
-    public void preencherFila() {
-        adicionarCliente(new Atendimento("CLI001", "Maria Silva", "Dúvida sobre produto"));
-        adicionarCliente(new Atendimento("CLI002", "João Souza", "Reclamação de serviço"));
-        adicionarCliente(new Atendimento("CLI003", "Ana Costa", "Solicitação de reembolso"));
-        adicionarCliente(new Atendimento("CLI004", "Pedro Alves", "Informações de entrega"));
-        adicionarCliente(new Atendimento("CLI005", "Carla Dias", "Agendamento de visita"));
-        adicionarCliente(new Atendimento("CLI006", "Lucas Martins", "Alteração de pedido"));
-        adicionarCliente(new Atendimento("CLI007", "Patrícia Rocha", "Cancelamento de contrato"));
-        adicionarCliente(new Atendimento("CLI008", "Rafael Lima", "Renovação de assinatura"));
-        adicionarCliente(new Atendimento("CLI009", "Fernanda Gomes", "Suporte para instalação"));
-        adicionarCliente(new Atendimento("CLI010", "Carlos Eduardo", "Pedido de orçamento"));
-    }
-
 }
